@@ -1,0 +1,81 @@
+:root {
+    --white: #fff;
+    --black: #000;
+  
+    /* Primary colors*/
+    --primary-1: #2b8379;
+    --primary-2: #19a596;
+    --primary-3: #7fd1c7;
+    --primary-4: #7fd1c7;
+    --primary-5: #d0f3ef;
+  
+    /* Neutral colors */
+    --neutral-1: #2c2c2c;
+    --neutral-2: #434343;
+    --neutral-3: #94868b;
+    --neutral-4: #d9cfd3;
+    --neutral-5: #f2ecee;
+  
+    /* Accent-blue colors */
+    --accent-1: #970e3d;
+    --accent-2: #c43464;
+    --accent-3: #de7699;
+    --accent-4: #e6c3ce;
+    --accent-5: #fff2f7;
+  }
+  
+#login .btn {
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 13px 40px;
+    border: 0;
+    transition: background-color 200ms, color 200ms;
+  }
+  
+  #login  .btn-default {
+    color: var(--white);
+    background-color: #104237;
+    /*
+    104237
+    24423C
+    228F77
+    */
+  }
+
+  #login  .sign-in {
+    color: #104237;
+  }
+  
+  #login  .btn-default:hover {
+    color: var(--white);
+    background-color: var(--primary-2);
+    text-decoration: none;
+  }
+  
+  #login .btn-default:active {
+    color: var(--primary-1);
+    background-color: var(--primary-4);
+  }
+  
+  #login .btn-default[disabled],
+  #login .btn-outline[disabled] {
+    color: var(--primary-4);
+    background-color: var(--primary-5);
+    cursor: default;
+  }
+  
+  #logo-frame {
+    background-color: #104237;
+    width: 50%;
+  }
+
+  #logo-frame img{
+    max-width: 60%;
+    height: auto;
+    top: 40%;
+    margin: auto;
+    position: relative;
+  }

@@ -1,0 +1,57 @@
+#tabela-email table {
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  #tabela-email td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  #tabela-email .por-ler{
+    background-color: #24292F;
+    color: rgb(226 232 240);
+  }
+  #tabela-email .por-ler:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  #tabela-email  .lido{
+    background: rgba(0,0,0,0.502);
+    color: rgba(255,255,255,.7);
+  }
+
+#tabela-email button{
+        width: 90px;
+    }
+
+#tabela-email .btn-caixa {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tabela-email a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 1rem;
+}
+    #tabela-email  a:hover {
+        background-color: rgb(6 78 59);
+        color:#ddd;
+      }
+      
+      #tabela-email   .previous {
+        background-color: #24292F;
+        color:#ddd;
+      }
+      
+      #tabela-email  .next {
+        background-color: #24292F;
+        color:#ddd;
+      }
+      
+      #tabela-email   .round {
+        border-radius: 50%;
+      }

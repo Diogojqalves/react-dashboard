@@ -1,0 +1,13 @@
+#projeto form {
+    margin: auto;
+}
+
+#projeto-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+#projeto-btn button{
+    width: 90px;
+}

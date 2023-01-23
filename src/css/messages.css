@@ -1,0 +1,58 @@
+#msg .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+
+#msg form button{
+    margin-left: 2rem; 
+    width: 90px;
+}
+#msg form input{
+    width: 90%;
+    border-radius: 5px;
+    background-color: #24292F;
+    color: #e2e8f0;
+}
+  
+  #msg .darker {
+    border-color: #13161a;
+    background-color: #24292F;
+  }
+
+  #msg .darker p{
+    color: #e2e8f0;
+  }
+  
+  #msg .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  #msg  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  #msg .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  #msg  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  #msg  .time-left {
+    float: left;
+    color: #999;
+  }
